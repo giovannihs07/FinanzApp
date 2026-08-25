@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "421490736698",
+    "project_id": "finanzapp-4e0a2",
+    "storage_bucket": "finanzapp-4e0a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421490736698:android:92cd3628a6cc34c653bf03",
+        "android_client_info": {
+          "package_name": "com.giovannihernandez.front_proyecto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4eS5DEpVUAU0gyjds1KAf8ZbY53UWAnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

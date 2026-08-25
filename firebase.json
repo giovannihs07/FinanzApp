@@ -1,0 +1,41 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "finanzapp-4e0a2",
+          "appId": "1:421490736698:android:92cd3628a6cc34c653bf03",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "finanzapp-4e0a2",
+          "configurations": {
+            "android": "1:421490736698:android:92cd3628a6cc34c653bf03",
+            "ios": "1:421490736698:ios:6d0eef91d0f36d9853bf03",
+            "macos": "1:421490736698:ios:6d0eef91d0f36d9853bf03",
+            "web": "1:421490736698:web:030030ec96b06d7353bf03",
+            "windows": "1:421490736698:web:a47828985227b2e853bf03"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ]
+}
